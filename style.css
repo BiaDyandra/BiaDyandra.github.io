@@ -9,25 +9,25 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
-/* ---------- Cabeçalho e fotos ---------- */
+/* Cabeçalho e fotos */
 .perfil-header {
   position: relative;
   text-align: center;
   background-color: #ec7ea4;
   color: white;
-  padding-bottom: 2rem; /* 🔹 antes era 4rem — reduz a altura azul */
+  padding-bottom: 2rem; 
 }
 
 .capa img {
   width: 100%;
-  height: 200px; /* 🔹 antes era 250px — diminui a altura da imagem de capa */
+  height: 200px;
   object-fit: cover;
   display: block;
 }
 
 .foto-perfil {
   position: absolute;
-  top: 130px; /* 🔹 ajustado para alinhar melhor com a nova altura */
+  top: 130px;
   left: 50%;
   transform: translateX(-50%);
   border: 4px solid rgbs(180, 77, 77);
@@ -45,8 +45,8 @@ body {
 }
 
 .titulo {
-  margin-top: 80px; /* 🔹 reduzido para manter proporção */
-  font-size: 1.6rem; /* 🔹 levemente menor */
+  margin-top: 80px;
+  font-size: 1.6rem; 
   animation: fadeIn 2s ease-in-out;
 }
 
@@ -68,7 +68,7 @@ body {
   background: #dce3ff;
 }
 
-/* ---------- Conteúdo ---------- */
+/* Conteúdo */
 main {
   max-width: 900px;
   margin: 2rem auto;
@@ -106,7 +106,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ---------- Imagem extra ---------- */
+/* Imagem extra */
 .imagem-extra {
   text-align: center;
   margin-top: 1.2rem;
@@ -125,7 +125,7 @@ a:hover {
   margin-top: 0.5rem;
 }
 
-/* ---------- Rodapé ---------- */
+/* Rodapé */
 footer {
   text-align: center;
   background: #ec7ea4;
@@ -133,13 +133,13 @@ footer {
   padding: 1rem 0;
 }
 
-/* ---------- Animações ---------- */
+/* Animações */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* ---------- Tema escuro ---------- */
+/* Tema escuro */
 .dark {
   background-color: #1e1e2f;
   color: #ddd;
