@@ -9,7 +9,7 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
-/* Cabeçalho e fotos */
+/* Cabeçalho e foto perfil */
 .perfil-header {
   position: relative;
   text-align: center;
